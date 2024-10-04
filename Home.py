@@ -14,7 +14,7 @@ df = pd.read_csv(r'./data/processed/df_andamento.csv',
                  dtype={'Usuário': str,
                         'Protocolo': str},
                  parse_dates=['Data'])
-df_objeto = pd.read_excel(r'C:\Users\00840207255\OneDrive - Minha Empresa\Aplicativos\App timeline\data\database\objetos.xlsx')
+df_objeto = pd.read_excel(r'./data/database/objetos.xlsx')
 
 # Título
 
@@ -24,7 +24,7 @@ st.markdown(
 )
 
 # Caminho para a pasta onde os arquivos CSV estão armazenados
-caminho_pasta = r'C:\Users\00840207255\OneDrive - Minha Empresa\Aplicativos\App timeline\downloads'
+caminho_pasta = 'downloads'
 
 # Lista para armazenar as datas de modificação
 datas_modificacao = []
