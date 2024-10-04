@@ -10,13 +10,14 @@ import os
 st.set_page_config(page_title='Timeline', layout='wide', page_icon='⏳')
 
 # Carregar arquivos
-df = pd.read_csv(r'C:\\Users\\00840207255\\OneDrive - Minha Empresa\\Aplicativos\\App timeline\\data\\processed\\df_andamento.csv',
+df = pd.read_csv(r'./data/processed/df_andamento.csv',
                  dtype={'Usuário': str,
                         'Protocolo': str},
                  parse_dates=['Data'])
 df_objeto = pd.read_excel(r'C:\Users\00840207255\OneDrive - Minha Empresa\Aplicativos\App timeline\data\database\objetos.xlsx')
 
 # Título
+
 st.markdown(
     "<h1 style='text-align: center;'>LINHA DO TEMPO DE PROCESSOS ⏳</h1>",
     unsafe_allow_html=True
