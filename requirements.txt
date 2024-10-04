@@ -4,3 +4,4 @@ selenium
 streamlit
 plotly
 streamlit_extras
+openpyxl
