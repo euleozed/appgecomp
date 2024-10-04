@@ -39,7 +39,7 @@ def extrair_texto(descricao):
     documento = re.search(r'\((.*?)\)', descricao)
     
     # Expressão regular para identificar movimentação (exemplo: recebido, enviado, etc.)
-    movimentacao = re.search(r'Processo (\w+) na unidade', descricao)
+    movimentacao = re.search(r'\b(remetido)\b', descricao)
     
     # Se movimentação for encontrada, usamos ela no nome do documento
     if movimentacao:
@@ -54,7 +54,7 @@ df['Protocolo'], df['Documento'] = zip(*df['Descrição'].apply(extrair_texto))
 
 # Merge através do cpf do usuário
 df = pd.merge(df, df_usuarios, on='CPF', how='left')
-
+df
 
 # ------------------------------
 
@@ -84,8 +84,8 @@ lista_encerrados = df_encerrados['Processo'].unique()
 df_andamento = df[~df['Processo'].isin(lista_homologados) & ~df['Processo'].isin(lista_encerrados)]
 
 
-# Filtrar o DataFrame para manter as linhas que contêm "recebido", "remetido" ou "assinado"
-df_andamento = df_andamento[df_andamento['Descrição'].str.contains(r'recebido|assinado', case=False, na=False)]
+# Filtrar o DataFrame para manter as linhas que contêm "remetido" ou "assinado"
+df_andamento = df_andamento[df_andamento['Descrição'].str.contains(r'remetido|assinado', case=False, na=False)]
 df_andamento.drop(columns=['Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
 
 # Exclui todas as linhas onde a coluna 'Documento' contém valores vazios
