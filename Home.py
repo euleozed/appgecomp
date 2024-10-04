@@ -13,7 +13,7 @@ st.set_page_config(page_title='Timeline', layout='wide', page_icon='⏳')
 df = pd.read_csv(r'./data/processed/df_andamento.csv',
                  dtype={'Usuário': str,
                         'Protocolo': str},
-                 parse_dates=['Data'])
+                 parse_dates=['Data/Hora'])
 df_objeto = pd.read_excel(r'./data/database/objetos.xlsx')
 
 # Título
@@ -68,16 +68,16 @@ style_metric_cards(background_color= 'rainbow')
 
 st.divider()
 # Ordenando o DataFrame pelo número do processo e pela data
-df = df.sort_values(by=['Processo', 'Data']).reset_index(drop=True)
+df = df.sort_values(by=['Processo', 'Data/Hora']).reset_index(drop=True)
 
 # Converter a coluna 'Data' para datetime
-df['Data'] = pd.to_datetime(df['Data'])
+df['Data/Hora'] = pd.to_datetime(df['Data/Hora'])
 
 # Criando a coluna para a quantidade de dias entre o documento 2 e o documento 1
-df['Dias entre Documentos'] = df.groupby('Processo')['Data'].diff().dt.days
+df['Dias entre Documentos'] = df.groupby('Processo')['Data/Hora'].diff().dt.days
 
 # Criando a coluna para a quantidade de dias acumulados entre o primeiro documento e o documento atual
-df['Dias Acumulados'] = df.groupby('Processo')['Data'].transform(lambda x: (x - x.min()).dt.days)
+df['Dias Acumulados'] = df.groupby('Processo')['Data/Hora'].transform(lambda x: (x - x.min()).dt.days)
 
 # Mesclar df e df_objeto com base na coluna 'Processo'
 df_combinado = pd.merge(df, df_objeto, on='Processo', how='inner')
@@ -107,7 +107,7 @@ if processo_selecionado:
     data_hoje = datetime.now()
     novo_registro = {
         'Processo': processo_escolhido,
-        'Data': data_hoje,
+        'Data/Hora': data_hoje,
         'Documento': "Dias desde a última movimentação",
         'Unidade': '',
         'Dias entre Documentos': 0,
@@ -118,11 +118,11 @@ if processo_selecionado:
     df_selected = pd.concat([df_selected, pd.DataFrame([novo_registro])], ignore_index=True)
 
     # Converter a coluna 'Data' para datetime
-    df_selected['Data'] = pd.to_datetime(df_selected['Data'])
+    df_selected['Data'] = pd.to_datetime(df_selected['Data/Hora'])
 
     # Recalculando as colunas 'Dias entre Documentos' e 'Dias Acumulados'
-    df_selected['Dias entre Documentos'] = df_selected.groupby('Processo')['Data'].diff().dt.days
-    df_selected['Dias Acumulados'] = df_selected.groupby('Processo')['Data'].transform(lambda x: (x - x.min()).dt.days)
+    df_selected['Dias entre Documentos'] = df_selected.groupby('Processo')['Data/Hora'].diff().dt.days
+    df_selected['Dias Acumulados'] = df_selected.groupby('Processo')['Data/Hora'].transform(lambda x: (x - x.min()).dt.days)
 
     # Ajustando os valores nulos de 'Dias entre Documentos'
     df_selected['Dias entre Documentos'] = df_selected['Dias entre Documentos'].fillna(0)
@@ -131,10 +131,10 @@ if processo_selecionado:
     df_selected['Rotulo'] = df_selected['Documento'] + ': ' + df_selected['Dias entre Documentos'].astype(int).astype(str) + 'd' + ' - ' + df_selected['Protocolo']
 
     # Converter a data para formato legível
-    df_selected['Data Documento'] = df_selected['Data'].dt.strftime('%d/%m/%y')
+    df_selected['Data Documento'] = df_selected['Data/Hora'].dt.strftime('%d/%m/%y')
 
     # Definir dataframe apenas com top 10 valores
-    df_fig = df_selected.nlargest(10, 'Dias entre Documentos').sort_values(by='Data')
+    df_fig = df_selected.nlargest(10, 'Dias entre Documentos').sort_values(by='Data/Hora')
 
     st.markdown(f"<h5 style='text-align: center;'>Linha do Tempo do Processo</h5>", unsafe_allow_html=True)
     # Criar o gráfico

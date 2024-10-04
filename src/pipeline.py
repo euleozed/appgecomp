@@ -24,11 +24,11 @@ df_usuarios.rename(columns={'CPF1': 'CPF',
 # Substituir '/' por '-' na coluna 'Data/Hora'
 df['Data/Hora'] = df['Data/Hora'].str.replace('/', '-')
 
-# Separar a data e a hora, mantendo apenas a data
-df['Data'] = df['Data/Hora'].str.split(' ').str[0]
+# # Separar a data e a hora, mantendo apenas a data
+# df['Data/Hora'] = df['Data/Hora'].str.split(' ').str[0]
 
 # Converter a coluna 'Data/Hora' para formato datetime
-df['Data'] = pd.to_datetime(df['Data'])
+df['Data/Hora'] = pd.to_datetime(df['Data/Hora'], format='%d-%m-%Y %H:%M')
 
 # Função para extrair o Protocolo e o nome do documento
 def extrair_texto(descricao):
@@ -63,7 +63,7 @@ df = pd.merge(df, df_usuarios, on='CPF', how='left')
 df_homologados = df[df['Descrição'].str.contains(r'homologação', case=False, na=False)]
 
 # Excluindo as colunas
-df_homologados.drop(columns=['Data/Hora', 'Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
+df_homologados.drop(columns=['Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
 
 # definir a lista de processos que serão retirados da tabela histórico
 lista_homologados = df_homologados['Processo'].unique()
@@ -73,7 +73,7 @@ lista_homologados = df_homologados['Processo'].unique()
 df_encerrados = df[df['Documento'] == 'Termo de Encerramento']
 
 # Excluindo as colunas
-df_encerrados.drop(columns=['Data/Hora', 'Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
+df_encerrados.drop(columns=['Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
 
 # definir a lista de processos encerrados que serão retirados da tabela histórico
 lista_encerrados = df_encerrados['Processo'].unique()
@@ -86,7 +86,7 @@ df_andamento = df[~df['Processo'].isin(lista_homologados) & ~df['Processo'].isin
 
 # Filtrar o DataFrame para manter as linhas que contêm "recebido", "remetido" ou "assinado"
 df_andamento = df_andamento[df_andamento['Descrição'].str.contains(r'recebido|assinado', case=False, na=False)]
-df_andamento.drop(columns=['Data/Hora', 'Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
+df_andamento.drop(columns=['Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
 
 # Exclui todas as linhas onde a coluna 'Documento' contém valores vazios
 df_andamento = df_andamento.dropna(subset=['Documento'])
