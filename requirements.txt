@@ -3,3 +3,4 @@ numpy
 selenium
 streamlit
 plotly
+streamlit_extras
