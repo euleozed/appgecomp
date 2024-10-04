@@ -52,13 +52,12 @@ st.divider()
 
 c1, c2, c3 = st.columns(3)
 qtd_processos = df['Processo'].nunique()
-qtd_termos = df['Documento'].str.contains('Termo de Referência', case=False, na=False).sum()
-qtd_documentos_gecomp = df[
-    (df['Unidade'] == 'SESAU-GECOMP') &
-    (~df['Documento'].str.contains('recebido', case=False, na=False))
-].shape[0]
-media_termos_processo = qtd_termos / qtd_processos
+df_termos = df[df['Documento'] == 'Termo de Referência'].groupby('Protocolo')['Documento'].size().reset_index()
+qtd_termos = df_termos['Protocolo'].count()
 
+df_qtd_documentos_gecomp = df[(df['Unidade'] == 'SESAU-GECOMP') &
+    (~df['Documento'].str.contains('remetido', case=False, na=False))].groupby('Protocolo')['Documento'].size().reset_index()
+qtd_documentos_gecomp = df_qtd_documentos_gecomp['Protocolo'].count()
 
 c1.metric("Quantidade de Processos na Base de Dados:", value=qtd_processos)
 c2.metric("Quantidade de Termos de Referência Elaborados:", qtd_termos)
@@ -151,21 +150,47 @@ if processo_selecionado:
     st.plotly_chart(fig)
     st.divider()
 
+    c1, c2 = st.columns(2)
+    df_termos = df_selected[df_selected['Documento'] == 'Termo de Referência'].groupby('Protocolo')['Documento'].size().reset_index()
+    qtd_termos = df_termos['Protocolo'].count()
+    qtd_setores = df_selected['Unidade'].nunique()
+    
+    df_qtd_documentos_gecomp = df_selected[(df_selected['Unidade'] == 'SESAU-GECOMP') &
+    (~df_selected['Documento'].str.contains('remetido', case=False, na=False))].groupby('Protocolo')['Documento'].size().reset_index()
+    qtd_documentos_gecomp = df_qtd_documentos_gecomp['Protocolo'].count()
+
+    c1.metric("Quantidade de Termos de Referência no Processo:", qtd_termos)
+    c1.metric("Quantidade de Setores Envolvidos:", qtd_setores)
+    c1.metric("Quantidade de Documentos Produzidos pela GECOMP:", qtd_documentos_gecomp)
+    
+    # tempo em cada setor
+    df_setor_prazos_geral = df_selected.groupby('Unidade').agg(Dias=("Dias entre Documentos", "sum")).nlargest(10, 'Dias').sort_values(by="Dias").reset_index()
+    fig_prazos = px.bar(df_setor_prazos_geral,
+                        x='Unidade',
+                        y='Dias',
+                        text_auto=True,)
+                        #orientation = 'h',
+                        #title = "Duração acumulada em cada setor")
+    fig_prazos.update_traces(textposition="outside")
+    c2.markdown(f"<h5 style='text-align: center;'>Duração acumulada em cada setor</h5>", unsafe_allow_html=True)
+    c2.plotly_chart(fig_prazos)
+    style_metric_cards(background_color= 'rainbow')
+
+
+    st.divider()
+
     # Tabela da linha do tempo
     st.markdown(f"<h5 style='text-align: center;'>Tabela do Processo: {processo_escolhido}</h5>", unsafe_allow_html=True)
     df_table = df_selected[['Unidade', 'Nome', 'Protocolo', 'Documento', 'Data Documento', 'Dias entre Documentos', 'Dias Acumulados']].sort_values(by='Dias Acumulados', ascending=False)
     st.dataframe(df_table, hide_index=True, width=1750, height=750)
 
     st.divider()
-    # tempo em cada setor
-    df_setor_prazos_geral = df_selected.groupby('Unidade').agg(Dias=("Dias entre Documentos", "sum")).nlargest(10, 'Dias').sort_values(by="Dias").reset_index()
-    fig_prazos = px.bar(df_setor_prazos_geral,
-                        x='Unidade',
-                        y='Dias',
-                        text_auto=True)
-    fig_prazos.update_traces(textposition="outside")
-    st.markdown(f"<h5 style='text-align: center;'>Top 10 - Duração acumulada em cada setor</h5>", unsafe_allow_html=True)
-    st.plotly_chart(fig_prazos)
+    
+
+    
+
+
+    
 
 else:
     st.write("Por favor, selecione um processo.")
