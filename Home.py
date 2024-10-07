@@ -135,21 +135,6 @@ if processo_selecionado:
     # Definir dataframe apenas com top 10 valores
     df_fig = df_selected.nlargest(10, 'Dias entre Documentos').sort_values(by='Data/Hora')
 
-    st.markdown(f"<h5 style='text-align: center;'>Linha do Tempo do Processo: {processo_escolhido}</h5>", unsafe_allow_html=True)
-    # Criar o gráfico
-    fig = px.area(df_fig,
-                  x='Data Documento',
-                  y='Dias entre Documentos',
-                  markers=True,
-                  text='Rotulo')
-
-    # Atualizar a posição dos rótulos
-    fig.update_traces(textposition="top center")
-
-    # Exibir o gráfico no Streamlit
-    st.plotly_chart(fig)
-    st.divider()
-
     c1, c2 = st.columns(2)
     df_termos = df_selected[df_selected['Documento'] == 'Termo de Referência'].groupby('Protocolo')['Documento'].size().reset_index()
     qtd_termos = df_termos['Protocolo'].count()
@@ -178,6 +163,23 @@ if processo_selecionado:
 
 
     st.divider()
+    
+    st.markdown(f"<h5 style='text-align: center;'>Linha do Tempo do Processo: {processo_escolhido}</h5>", unsafe_allow_html=True)
+    # Criar o gráfico
+    fig = px.area(df_fig,
+                  x='Data Documento',
+                  y='Dias entre Documentos',
+                  markers=True,
+                  text='Rotulo')
+
+    # Atualizar a posição dos rótulos
+    fig.update_traces(textposition="top center")
+
+    # Exibir o gráfico no Streamlit
+    st.plotly_chart(fig)
+    st.divider()
+
+    
 
     # Tabela da linha do tempo
     st.markdown(f"<h5 style='text-align: center;'>Tabela do Processo: {processo_escolhido}</h5>", unsafe_allow_html=True)

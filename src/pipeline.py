@@ -54,7 +54,7 @@ df['Protocolo'], df['Documento'] = zip(*df['Descrição'].apply(extrair_texto))
 
 # Merge através do cpf do usuário
 df = pd.merge(df, df_usuarios, on='CPF', how='left')
-df
+
 
 # ------------------------------
 
@@ -62,11 +62,16 @@ df
 # Filtrar o DataFrame para manter as linhas que contém "homologação"
 df_homologados = df[df['Descrição'].str.contains(r'homologação', case=False, na=False)]
 
+# definir a lista de processos que serão retirados da tabela histórico
+lista_homologados = df_homologados['Processo'].unique()
+
+df_homologados = df[df['Processo'].isin(lista_homologados)]
+
+
 # Excluindo as colunas
 df_homologados.drop(columns=['Descrição', 'Órgao', 'data', 'id_nivel'], inplace=True)
 
-# definir a lista de processos que serão retirados da tabela histórico
-lista_homologados = df_homologados['Processo'].unique()
+
 
 # ENCERRADOS
 # Exclui todas as linhas onde a coluna 'Documento' possui termo de encerramento
