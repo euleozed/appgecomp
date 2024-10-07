@@ -1,4 +1,5 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+04/10/2024 11:27,SESAU-NMJ,4150338299,Processo atribuído para 07193814362,0036.013678/2024-21
 26/09/2024 12:46,SESAU-NMJ,2799137296,Processo recebido na unidade,0036.013678/2024-21
 26/09/2024 10:25,SESAU-GECOMP,51649713215,Documento 0053231244 (Despacho) retirado do bloco 1275995,0036.013678/2024-21
 26/09/2024 10:25,SESAU-GECOMP,51649713215,Assinado Documento 0053231244 (Despacho) por 51649713215,0036.013678/2024-21
@@ -98,7 +99,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 02/08/2024 18:30,SESAU-CFES,97290459253,Bloco 777367 retornado para a unidade SESAU-NEOR,0036.013678/2024-21
 02/08/2024 17:06,SESAU-NEOR,1031113282,Bloco 777367 disponibilizado para unidade SESAU-CFES,0036.013678/2024-21
 02/08/2024 16:07,SESAU-NEOR,1031113282,Cancelada disponibilização do bloco 777367 para a unidade SESAU-CFES,0036.013678/2024-21
-02/08/2024 16:08,SESAU-NEOR,1031113282,Bloco 970699 disponibilizado para unidade SESAU-SE,0036.013678/2024-21
+12/07/2024 14:12,SESAU-GECOMP,99984164268,Documento 0050766055 (Justificativa) retirado do bloco 408603,0036.013678/2024-21
 12/07/2024 14:11,SESAU-GECOMP,99984164268,Assinado Documento 0050766055 (Justificativa) por 99984164268,0036.013678/2024-21
 12/07/2024 14:10,SESAU-GECOMP,51649713215,Documento 0050766055 (Justificativa) retirado do bloco 1275995,0036.013678/2024-21
 12/07/2024 13:51,SESAU-GECOMP,51649713215,Assinado Documento 0050766055 (Justificativa) por 51649713215,0036.013678/2024-21
@@ -862,6 +863,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 21/03/2024 12:27,SESAU-GECOMP,91251117287,"Gerado documento restrito 0047048563 (Planilha), Documento Preparatório (Art. 7º, § 3º, da Lei nº 12.527/2011)",0036.013678/2024-21
 21/03/2024 12:26,SESAU-GECOMP,91251117287,"Gerado documento restrito 0047048479 (Termo de Abertura), Documento Preparatório (Art. 7º, § 3º, da Lei nº 12.527/2011)",0036.013678/2024-21
 21/03/2024 12:25,SESAU-GECOMP,91251117287,"Processo restrito gerado, Documento Preparatório (Art. 7º, § 3º, da Lei nº 12.527/2011)",0036.013678/2024-21
+21/03/2024 16:07,SESAU-GECOMP,91251117287,"Registro de documento externo público 0047063035, conferido com cópia simples",0036.013678/2024-21
 21/03/2024 16:06,SESAU-GECOMP,91251117287,"Registro de documento externo público 0047063013, conferido com cópia simples",0036.013678/2024-21
 21/03/2024 16:06,SESAU-GECOMP,91251117287,"Registro de documento externo público 0047062994 (Despacho VINICIUS IZAIAS RODRIGUES NASCIMENTO), conferido com cópia simples",0036.013678/2024-21
 21/03/2024 16:06,SESAU-GECOMP,91251117287,"Registro de documento externo público 0047062982 (Decisão VINICIUS IZAIAS RODRIGUES NASCIMENTO), conferido com cópia simples",0036.013678/2024-21

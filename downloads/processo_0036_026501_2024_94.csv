@@ -1,4 +1,12 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+07/10/2024 13:55,SESAU-GECOMP,1990539289,Alterada ordem dos protocolos,0036.026501/2024-94
+07/10/2024 13:54,SESAU-GECOMP,1990539289,Registro de documento externo público 0053553219 (Certidão),0036.026501/2024-94
+07/10/2024 13:09,SESAU-GECOMP,1990539289,Alterada ordem dos protocolos,0036.026501/2024-94
+07/10/2024 13:09,SESAU-GECOMP,1990539289,Registro de documento externo público 0053548488 (Certidão),0036.026501/2024-94
+07/10/2024 12:33,SESAU-GECOMP,1990539289,Alterada ordem dos protocolos,0036.026501/2024-94
+07/10/2024 12:32,SESAU-GECOMP,1990539289,Registro de documento externo público 0053544517 (Certidão),0036.026501/2024-94
+03/10/2024 10:55,SESAU-GECOMP,2719001210,Processo atribuído para 42191530206,0036.026501/2024-94
+03/10/2024 10:54,SESAU-GECOMP,2719001210,Registro de documento externo público 0053435523 (Relatório),0036.026501/2024-94
 30/09/2024 11:19,SESAU-GECOMP,62926837291,Processo atribuído para 01990539289,0036.026501/2024-94
 30/09/2024 10:38,SESAU-GECOMP,14617293,Processo atribuído para 00014617293,0036.026501/2024-94
 27/09/2024 12:09,SESAU-GECOMP,1990539289,Gerado documento público 0053285379 (Parecer 346),0036.026501/2024-94
@@ -91,14 +99,14 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 20/09/2024 13:24,SESAU-GECOMP,87378736287,Registro de documento externo público 0053073567 (Documentos de Habilitação),0036.026501/2024-94
 20/09/2024 13:22,SESAU-GECOMP,87378736287,Registro de documento externo público 0053073424 (Documentos de Habilitação),0036.026501/2024-94
 20/09/2024 13:22,SESAU-GECOMP,87378736287,Registro de documento externo público 0053073373 (Proposta),0036.026501/2024-94
-20/09/2024 13:06,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071935 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:06,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071872 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:05,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071749 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:04,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071672 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:03,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071606 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:02,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071536 (Proposta),0036.026501/2024-94
-20/09/2024 13:01,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071453 (Documentos de Habilitação),0036.026501/2024-94
-20/09/2024 13:01,SESAU-GECOMP,87378736287,Registro de documento externo público 0053071407 (Documentos de Habilitação),0036.026501/2024-94
+10/09/2024 12:22,SESAU-GECOMP,2722403200,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 12:11,SESAU-GECOMP,81798440210,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 12:10,SESAU-GECOMP,81798440210,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 12:08,SESAU-GECOMP,282311203,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 12:07,SESAU-GECOMP,282311203,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 11:59,SESAU-GECOMP,98784846291,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 11:59,SESAU-GECOMP,98784846291,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+10/09/2024 11:49,SESAU-GECOMP,1331762235,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
 10/09/2024 11:49,SESAU-GECOMP,1331762235,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
 10/09/2024 11:47,SESAU-GECOMP,282311203,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
 10/09/2024 11:46,SESAU-GECOMP,282311203,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
@@ -681,6 +689,14 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 03/06/2024 12:31,SESAU-COEAF,3122149958,Gerado documento público 0049301145 (Documento de Oficialização de Demanda 1),0036.026501/2024-94
 03/06/2024 12:31,SESAU-COEAF,3122149958,Gerado documento público 0049301103 (Memorando 29),0036.026501/2024-94
 03/06/2024 12:19,SESAU-COEAF,3122149958,Processo público gerado,0036.026501/2024-94
+05/06/2024 15:32,SESAU-GECOMP,2773788265,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:31,SESAU-GECOMP,57807957204,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:31,SESAU-GECOMP,57807957204,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:22,SESAU-GECOMP,1331762235,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:22,SESAU-GECOMP,1331762235,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:17,SESAU-GECOMP,282311203,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:16,SESAU-GECOMP,282311203,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
+05/06/2024 15:12,SESAU-GECOMP,282311203,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
 05/06/2024 15:12,SESAU-GECOMP,282311203,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94
 05/06/2024 15:08,SESAU-GECOMP,99984164268,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.026501/2024-94
 05/06/2024 15:08,SESAU-GECOMP,99984164268,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.026501/2024-94

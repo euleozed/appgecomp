@@ -18,6 +18,7 @@ df_objeto = pd.read_excel(r'./data/database/objetos.xlsx')
 
 # Título
 
+
 st.markdown(
     "<h1 style='text-align: center;'>LINHA DO TEMPO DE PROCESSOS ⏳</h1>",
     unsafe_allow_html=True
@@ -163,7 +164,7 @@ if processo_selecionado:
 
 
     st.divider()
-    
+
     st.markdown(f"<h5 style='text-align: center;'>Linha do Tempo do Processo: {processo_escolhido}</h5>", unsafe_allow_html=True)
     # Criar o gráfico
     fig = px.area(df_fig,

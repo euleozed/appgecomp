@@ -1,4 +1,5 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+03/10/2024 17:16,SESAU-SC,03154207236,Registro de documento externo público 0053466961 (Anexo DOE-09.08.2024),0036.009914/2024-12
 23/09/2024 12:19,SESAU-SC,03154207236,Exclusão do documento 0047357879,0036.009914/2024-12
 30/08/2024 08:53,CAIS-CTFD,52891151291,Bloco 1381732 retornado para a unidade SESAU-SC,0036.009914/2024-12
 29/08/2024 15:05,SESAU-SC,03154207236,Liberada assinatura externa para o usuário roseli de matos peixer (destakturismofinanceiro@hotmail.com) no documento 0052056607 (Ata de Reunião) até 29/08/2025 (365 dias). Com visualização integral do processo.,0036.009914/2024-12
@@ -98,7 +99,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 06/08/2024 11:07,PGE-SESAU,04133238206,Bloco 618856 disponibilizado para unidade SESAU-SE,0036.009914/2024-12
 06/08/2024 11:07,PGE-SESAU,04133238206,Documento 0051189408 (Termo de Contrato 871) inserido no bloco 618856,0036.009914/2024-12
 06/08/2024 10:33,PGE-SESAU,destakturismofinanceiro@hotmail.com,Assinado Documento 0051189408 (Termo de Contrato 871) por destakturismofinanceiro@hotmail.com,0036.009914/2024-12
-06/08/2024 09:14,PGE-SESAU,04133238206,Liberada assinatura externa para o usuário roseli de matos peixer (destakturismofinanceiro@hotmail.com) no documento 0051189408 (Termo de Contrato 871) até 16/08/2024 (10 dias). Sem acesso ao processo.,0036.009914/2024-12
+09/07/2024 15:02,SESAU-NEOR,01031113282,Cancelada disponibilização do bloco 970699 para a unidade SESAU-SE,0036.009914/2024-12
 09/07/2024 15:02,SESAU-NEOR,01031113282,Cancelada disponibilização do bloco 777367 para a unidade SESAU-CFES,0036.009914/2024-12
 09/07/2024 13:59,SESAU-NPPS,97113875220,Documento 0050583683 (Informação 3130) retirado do bloco 1058732,0036.009914/2024-12
 09/07/2024 13:55,SESAU-NPPS,97113875220,Cancelada disponibilização do bloco 1058732 para a unidade SESAU-CPOP,0036.009914/2024-12
@@ -654,6 +655,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 04/03/2024 11:33,CAIS-CTFD,52894797249,Assinado Documento 0046465853 (Termo de Abertura) por 52894797249,0036.009914/2024-12
 04/03/2024 11:30,CAIS-CTFD,52894797249,Gerado documento público 0046465853 (Termo de Abertura),0036.009914/2024-12
 04/03/2024 11:28,CAIS-CTFD,52894797249,Processo público gerado,0036.009914/2024-12
+07/03/2024 08:47,SESAU-GECOMP,2773788265,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.009914/2024-12
 07/03/2024 08:47,SESAU-GECOMP,2773788265,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.009914/2024-12
 07/03/2024 08:44,SESAU-GECOMP,89091574291,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.009914/2024-12
 07/03/2024 08:44,SESAU-GECOMP,89091574291,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.009914/2024-12

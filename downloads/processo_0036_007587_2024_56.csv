@@ -1,4 +1,6 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+04/10/2024 11:28,SESAU-NMJ,4150338299,Processo atribuído para 01379005116,0036.007587/2024-56
+04/10/2024 11:28,SESAU-NMJ,4150338299,Processo recebido na unidade,0036.007587/2024-56
 30/09/2024 10:38,SESAU-GECOMP,14617293,Processo atribuído para 00014617293,0036.007587/2024-56
 03/09/2024 16:55,SESAU-NMJ,14617293,Processo remetido pela unidade SESAU-GECOMP,0036.007587/2024-56
 03/09/2024 16:52,SESAU-GECOMP,99984164268,Documento 0052456346 (Despacho) retirado do bloco 408603,0036.007587/2024-56
@@ -97,8 +99,8 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 16/07/2024 16:25,SESAU-GECOMP,14617293,Registro de documento externo público 0050869568 (Parecer Referencial 123),0036.007587/2024-56
 16/07/2024 12:00,SESAU-GECOMP,21992754268,Assinado Documento 0050849202 (Análise 119) por 21992754268,0036.007587/2024-56
 16/07/2024 11:58,SESAU-GECOMP,21992754268,Exclusão do documento 0050835634,0036.007587/2024-56
-16/07/2024 11:59,SESAU-GECOMP,21992754268,Gerado documento público 0050849202 (Análise 119),0036.007587/2024-56
-16/07/2024 11:57,SESAU-GECOMP,21992754268,Assinado Documento 0050835634 por 21992754268,0036.007587/2024-56
+27/03/2024 09:47,SESAU-NMJDJ,62926837291,Bloco 1148747 disponibilizado para unidade SESAU-CGAF,0036.007587/2024-56
+27/03/2024 09:46,SESAU-NMJDJ,62926837291,Cancelada disponibilização do bloco 1148747 para a unidade SESAU-CGAF,0036.007587/2024-56
 27/03/2024 09:10,SESAU-NMJDJ,14617293,Registro de documento externo público 0047209304 (Aviso PNCP),0036.007587/2024-56
 27/03/2024 08:59,SESAU-NMJDJ,14617293,Publicação do documento 0046911303 (Aviso 176) no veículo Diário Oficial do Estado de Rondônia de 27/03/2024 (Data de Disponibilização),0036.007587/2024-56
 27/03/2024 08:36,SESAU-NMJDJ,14617293,Documento 0046909348 (SAMS) retirado do bloco 1152395,0036.007587/2024-56
@@ -311,6 +313,8 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 20/02/2024 11:00,SESAU-NMJDJ,14617293,Registro de documento externo público 0046068328 (Petição inicial),0036.007587/2024-56
 20/02/2024 11:00,SESAU-NMJDJ,14617293,Processo atribuído para 00014617293,0036.007587/2024-56
 20/02/2024 10:59,SESAU-NMJDJ,14617293,Processo público gerado,0036.007587/2024-56
+20/02/2024 11:01,SESAU-NMJDJ,14617293,Alterada hipótese legal do documento 0046068340 (Decisão) para Informação Pessoal (Art. 31 da Lei nº 12.527/2011),0036.007587/2024-56
+20/02/2024 11:01,SESAU-NMJDJ,14617293,Alterado nível de acesso do documento 0046068340 (Decisão) para restrito,0036.007587/2024-56
 20/02/2024 11:01,SESAU-NMJDJ,14617293,Alterada hipótese legal do documento 0046068335 (Documentos Pessoais) para Informação Pessoal (Art. 31 da Lei nº 12.527/2011),0036.007587/2024-56
 20/02/2024 11:01,SESAU-NMJDJ,14617293,Alterado nível de acesso do documento 0046068335 (Documentos Pessoais) para restrito,0036.007587/2024-56
 20/02/2024 11:00,SESAU-NMJDJ,14617293,Alterada hipótese legal do documento 0046068328 (Petição inicial) para Informação Pessoal (Art. 31 da Lei nº 12.527/2011),0036.007587/2024-56

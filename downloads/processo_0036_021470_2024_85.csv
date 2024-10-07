@@ -1,4 +1,5 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+01/10/2024 15:30,SESAU-CAFI,94863369204,Assinado Documento 0053257488 (Termo de Recebimento Definitivo 317) por 94863369204,0036.021470/2024-85
 01/10/2024 15:11,SESAU-CAFI,65521781234,Assinado Documento 0053257488 (Termo de Recebimento Definitivo 317) por 65521781234,0036.021470/2024-85
 01/10/2024 13:40,SESAU-CAFI,95404287268,Assinado Documento 0053257488 (Termo de Recebimento Definitivo 317) por 95404287268,0036.021470/2024-85
 01/10/2024 12:12,SESAU-CAFI,50866591249,Assinado Documento 0053257488 (Termo de Recebimento Definitivo 317) por 50866591249,0036.021470/2024-85
@@ -98,7 +99,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 20/08/2024 15:50,SESAU-NEOR,1068306270,Bloco 777367 disponibilizado para unidade SESAU-CFES,0036.021470/2024-85
 20/08/2024 15:50,SESAU-NEOR,1068306270,Bloco 970699 disponibilizado para unidade SESAU-SE,0036.021470/2024-85
 20/08/2024 13:20,SESAU-NEOR,1031113282,Cancelada disponibilização do bloco 777367 para a unidade SESAU-CFES,0036.021470/2024-85
-20/08/2024 12:06,SESAU-CFES,97290459253,Assinado Documento 0051941202 (NE - Nota de Empenho) por 97290459253,0036.021470/2024-85
+14/08/2024 12:00,SESAU-GECOMP,57807957204,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.021470/2024-85
 14/08/2024 11:59,SESAU-GECOMP,57807957204,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.021470/2024-85
 14/08/2024 11:48,SESAU-GECOMP,401886204,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.021470/2024-85
 14/08/2024 11:48,SESAU-GECOMP,401886204,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.021470/2024-85
@@ -696,6 +697,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 03/05/2024 11:53,SESAU-CGAF,96303042287,Registro de documento externo público 0048374874 (Portaria),0036.021470/2024-85
 03/05/2024 11:37,SESAU-CGAF,96303042287,Gerado documento público 0048372822 (Documento de Oficialização de Demanda 11),0036.021470/2024-85
 03/05/2024 11:37,SESAU-CGAF,96303042287,Processo público gerado,0036.021470/2024-85
+17/05/2024 12:02,SESAU-GECOMP,1569836213,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.021470/2024-85
 17/05/2024 12:01,SESAU-GECOMP,1569836213,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.021470/2024-85
 17/05/2024 11:42,SESAU-GECOMP,85348732249,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.021470/2024-85
 17/05/2024 11:42,SESAU-GECOMP,85348732249,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.021470/2024-85

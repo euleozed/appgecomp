@@ -1,4 +1,5 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+04/10/2024 14:27,PGE-NLMS,2548978273,Documento 0052267339 (Ofício 22290) retirado do bloco 1368567,0020.003479/2024-83
 20/09/2024 15:09,PGE-NLMS,91994144220,Conclusão do processo na unidade,0020.003479/2024-83
 20/09/2024 15:10,PGE-NLMS,91994144220,Assinado Documento 0053080987 (Certidão 10341) por 91994144220,0020.003479/2024-83
 20/09/2024 15:09,PGE-NLMS,91994144220,Gerado documento público 0053080987 (Certidão 10341),0020.003479/2024-83
@@ -98,7 +99,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 07/08/2024 10:43,PGE-NLMS,4069386289,Registro de documento externo público 0051560431 (Despacho (3)),0020.003479/2024-83
 07/08/2024 10:43,PGE-NLMS,4069386289,Registro de documento externo público 0051560399,0020.003479/2024-83
 07/08/2024 10:21,PGE-NLMS,4069386289,Gerado documento público 0051557686 (Ofício 19879),0020.003479/2024-83
-07/08/2024 10:16,PGE-NLMS,4069386289,Reabertura do processo na unidade,0020.003479/2024-83
+03/04/2024 09:59,CAIS-GERREG,96594764268,Gerado documento público 0047372775 (Despacho),0020.003479/2024-83
 03/04/2024 09:59,CAIS-GERREG,96594764268,"Registro de documento externo público 0047372762 (Adendo), conferido com cópia simples",0020.003479/2024-83
 03/04/2024 09:53,CAIS-GERREG,96594764268,Processo recebido na unidade,0020.003479/2024-83
 03/04/2024 09:43,CAIS-GERREG,96953586249,Processo remetido pela unidade SESAU-NMJ,0020.003479/2024-83
@@ -170,6 +171,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 27/02/2024 09:40,PGE-NLMS,1523680270,Registro de documento externo público 0046280318 (Adendo),0020.003479/2024-83
 27/02/2024 09:33,PGE-NLMS,1523680270,Gerado documento público 0046279571 (Ofício 4013),0020.003479/2024-83
 27/02/2024 09:33,PGE-NLMS,1523680270,Processo público gerado,0020.003479/2024-83
+03/04/2024 09:59,CAIS-GERREG,96594764268,Gerado documento público 0047372775 (Despacho),0020.003479/2024-83
 03/04/2024 09:59,CAIS-GERREG,96594764268,"Registro de documento externo público 0047372762 (Adendo), conferido com cópia simples",0020.003479/2024-83
 03/04/2024 09:53,CAIS-GERREG,96594764268,Processo recebido na unidade,0020.003479/2024-83
 03/04/2024 09:43,CAIS-GERREG,96953586249,Processo remetido pela unidade SESAU-NMJ,0020.003479/2024-83

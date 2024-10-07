@@ -1,4 +1,8 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+03/10/2024 12:43,SESAU-GECOMP,2719001210,Processo atribuído para 62926837291,0036.057315/2023-16
+03/10/2024 12:43,SESAU-GECOMP,2719001210,Assinado Documento 0053449547 (Informação 5164) por 02719001210,0036.057315/2023-16
+03/10/2024 12:40,SESAU-GECOMP,2719001210,Gerado documento público 0053449547 (Informação 5164),0036.057315/2023-16
+03/10/2024 12:34,SESAU-GECOMP,62926837291,Processo atribuído para 02719001210,0036.057315/2023-16
 30/09/2024 11:29,SESAU-GECOMP,14617293,Processo atribuído para 62926837291,0036.057315/2023-16
 30/09/2024 10:38,SESAU-GECOMP,14617293,Processo atribuído para 00014617293,0036.057315/2023-16
 30/09/2024 10:19,SESAU-GECOMP,62926837291,Assinado Documento 0053317475 (Informação 5099) por 62926837291,0036.057315/2023-16
@@ -95,10 +99,10 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 30/04/2024 13:15,SESAU-NAP,1667857258,Registro de documento externo público 0048281528 (Relatório),0036.057315/2023-16
 29/04/2024 14:58,SESAU-NAP,1667857258,Processo atribuído para 01667857258,0036.057315/2023-16
 29/04/2024 14:44,SESAU-NAP,83025677287,Processo atribuído para 83025677287,0036.057315/2023-16
-29/04/2024 14:43,SESAU-NAP,83025677287,Processo recebido na unidade,0036.057315/2023-16
-29/04/2024 14:30,SESAU-NAP,2719001210,Processo remetido pela unidade SESAU-GECOMP,0036.057315/2023-16
-29/04/2024 14:29,SESAU-GECOMP,2719001210,Assinado Documento 0048243328 (Despacho) por 02719001210,0036.057315/2023-16
-29/04/2024 14:29,SESAU-GECOMP,2719001210,Gerado documento público 0048243328 (Despacho),0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso do documento 0045460021 (Documentos de Habilitação) para restrito,0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterada hipótese legal do documento 0045460018 (Documentos Pessoais) para Informação Pessoal (Art. 31 da Lei nº 12.527/2011),0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso geral para restrito,0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso do documento 0045460018 (Documentos Pessoais) para restrito,0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460026 (Sentença),0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460025 (Parecer Técnico Farmacêutico),0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460024 (Petição),0036.057315/2023-16
@@ -106,6 +110,10 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460018 (Documentos Pessoais),0036.057315/2023-16
 12/12/2023 16:39,SESAU-NMJDJ,62926837291,Processo atribuído para 62926837291,0036.057315/2023-16
 06/12/2023 14:41,SESAU-NMJDJ,62926837291,Processo público gerado,0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso do documento 0045460021 (Documentos de Habilitação) para restrito,0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterada hipótese legal do documento 0045460018 (Documentos Pessoais) para Informação Pessoal (Art. 31 da Lei nº 12.527/2011),0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso geral para restrito,0036.057315/2023-16
+25/01/2024 12:14,SESAU-NMJDJ,62926837291,Alterado nível de acesso do documento 0045460018 (Documentos Pessoais) para restrito,0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460026 (Sentença),0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460025 (Parecer Técnico Farmacêutico),0036.057315/2023-16
 25/01/2024 12:13,SESAU-NMJDJ,62926837291,Registro de documento externo público 0045460024 (Petição),0036.057315/2023-16

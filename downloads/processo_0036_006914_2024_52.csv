@@ -1,4 +1,5 @@
 Data/Hora,Unidade,Usuário,Descrição,numero_processo
+07/10/2024 13:32,SESAU-GECOMP,98784846291,Gerado documento público 0053550850 (Despacho),0036.006914/2024-52
 01/10/2024 11:40,SESAU-GECOMP,98784846291,Gerado documento público 0053378002 (Mapa de Risco 157),0036.006914/2024-52
 01/10/2024 09:24,SESAU-GECOMP,98784846291,Registro de documento externo público 0053360864 (Portaria),0036.006914/2024-52
 01/10/2024 09:24,SESAU-GECOMP,98784846291,Registro de documento externo público 0053360785 (Portaria),0036.006914/2024-52
@@ -98,7 +99,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 05/07/2024 13:32,SESAU-GECOMP,98784846291,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.006914/2024-52
 05/07/2024 13:32,SESAU-GECOMP,98784846291,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.006914/2024-52
 05/07/2024 13:22,SESAU-GECOMP,2722403200,Bloco 997022 disponibilizado para unidade SESAU-SE,0036.006914/2024-52
-05/07/2024 13:22,SESAU-GECOMP,2722403200,Cancelada disponibilização do bloco 997022 para a unidade SESAU-SE,0036.006914/2024-52
+02/07/2024 10:25,SESAU-GECOMP,3411113251,Alterado nível de acesso geral para público,0036.006914/2024-52
 02/07/2024 10:25,SESAU-GECOMP,3411113251,Alterado nível de acesso do documento 0049079042 (SAMS) para público,0036.006914/2024-52
 02/07/2024 10:25,SESAU-GECOMP,3411113251,Alterado nível de acesso do documento 0048811006 (Termo de Referência) para público,0036.006914/2024-52
 02/07/2024 10:25,SESAU-GECOMP,3411113251,Processo recebido na unidade,0036.006914/2024-52
@@ -722,6 +723,7 @@ Data/Hora,Unidade,Usuário,Descrição,numero_processo
 15/02/2024 13:47,SESAU-CO,96811129204,Gerado documento público 0045949792 (Documento de Oficialização de Demanda 7),0036.006914/2024-52
 15/02/2024 13:47,SESAU-CO,96811129204,Gerado documento público 0045949790 (Termo de Abertura),0036.006914/2024-52
 15/02/2024 13:47,SESAU-CO,96811129204,Processo público gerado,0036.006914/2024-52
+16/02/2024 14:34,SESAU-CO,96811129204,Conclusão do processo na unidade,0036.006914/2024-52
 16/02/2024 14:30,SESAU-CO,96811129204,Reabertura do processo na unidade,0036.006914/2024-52
 16/02/2024 13:57,SESAU-GECOMP,96811129204,Processo remetido pela unidade SESAU-CO,0036.006914/2024-52
 16/02/2024 13:56,SESAU-CO,96811129204,Assinado Documento 0045949792 (Documento de Oficialização de Demanda 7) por 96811129204,0036.006914/2024-52
